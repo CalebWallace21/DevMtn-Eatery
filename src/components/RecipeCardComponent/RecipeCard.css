@@ -1,0 +1,31 @@
+.recipe-card {
+    width: 300px;
+    height: 450px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0px 3px 10px black;
+}
+.recipe-card img {
+    width: 300px;
+    height: 300px;
+}
+.recipe-card h3 {
+    width: 200px;
+    max-height: 60px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.recipeCard-button button{
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: none;
+}

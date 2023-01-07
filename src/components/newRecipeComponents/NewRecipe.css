@@ -1,0 +1,88 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    gap: 15px;
+    
+  }
+  .form-title {
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .big{
+    width: 2em;
+    height: 2em;
+    
+  }
+  .nameImg-input{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    height: 30px;
+    gap: 25px;
+  }
+  .radio-btns{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    font-size: 24px;
+  }
+  .time-input{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    height: 30px;
+    gap: 25px;
+  }
+  .time-input input{
+    width: 100px;
+  }
+  .ingredient-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ingredient-input-container input{
+    padding: 5px;
+  }
+  input{
+    padding-left: 10px;
+  }
+  .ingredientList-box {
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    margin-right: 130px;
+  }
+  .ingredient-button{
+    background-color: darkorange;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 5px 20px;
+  }
+  textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+  }
+  .submit-button {
+    background-color: teal;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 5px 40px;
+  }
+  label {
+    margin-left: 10px;
+    }
+
+
+
+
+  
